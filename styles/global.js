@@ -1,17 +1,20 @@
 import { StyleSheet } from 'react-native';
 
 export const globalStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 30
+  },
   titleText: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    color: '#333',
+    fontFamily: 'nunito-bold',
+    fontSize: 20,
+    color: 'blue'
   },
   paragraph: {
     marginVertical: 8,
-    lineHeight: 20,
+    lineHeight: 20
   },
-  container: {
-    flex: 1,
-    padding: 20,
-  },
+  Button: {
+    marginVertical: 8
+  }
 });

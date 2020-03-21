@@ -1,30 +1,41 @@
 import { createStackNavigator } from 'react-navigation-stack';
+import { createAppContainer } from 'react-navigation';
 import Home from '../screens/home';
 import ReviewDetails from '../screens/reviewDetails';
+import Important from '../screens/important';
+import TaskDetail from '../screens/taskDetail';
+// import TodoItem from '../screens/todoitem';
 
 const screens = {
   Home: {
     screen: Home,
     navigationOptions: {
-      title: 'GameZone',
+      title: 'ToDoApp'
+      //headerStyle: { backgroundColor: '#BABEC0' }
     }
   },
   ReviewDetails: {
     screen: ReviewDetails,
     navigationOptions: {
-      title: 'Review Details',
+      title: 'Omar`s ToDo',
+      headerStyle: { backgroundColor: 'skyblue' }
     }
   },
+  Important: {
+    screen: Important
+  },
+  TaskDetail: {
+    screen: TaskDetail
+  }
+  // TodoItem: {
+  //   screen: TodoItem
+  // }
 };
 
-// home stack navigator screens
 const HomeStack = createStackNavigator(screens, {
   defaultNavigationOptions: {
     headerTintColor: '#444',
-    headerStyle: { backgroundColor: '#eee', height: 60 }
+    headerStyle: { backgroundColor: 'skyblue' }
   }
 });
-
-export default HomeStack;
-
-
+export default createAppContainer(HomeStack);

@@ -5,7 +5,7 @@ const screens = {
   About: {
     screen: About,
     navigationOptions: {
-      title: 'About GameZone'
+      title: 'About TodoApp'
     },
   },
 }
