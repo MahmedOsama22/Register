@@ -1,7 +1,6 @@
 import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
 import Home from '../screens/home';
-import ReviewDetails from '../screens/reviewDetails';
 import Important from '../screens/important';
 import TaskDetail from '../screens/taskDetail';
 // import TodoItem from '../screens/todoitem';
@@ -17,7 +16,7 @@ const screens = {
   ReviewDetails: {
     screen: ReviewDetails,
     navigationOptions: {
-      title: 'Omar`s ToDo',
+      title: 'Osama`s ToDo',
       headerStyle: { backgroundColor: 'skyblue' }
     }
   },
