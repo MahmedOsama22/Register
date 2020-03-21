@@ -12,8 +12,8 @@ import {
   ScrollView,
   CheckBox
 } from 'react-native';
-import TodoItem from '../components/todoitem';
-import AddTodo from '../components/addtodo';
+import TodoItem from '../components/todoItem';
+// import AddTodo from '../components/addtodo';
 
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import TaskDetail from './taskDetail';
