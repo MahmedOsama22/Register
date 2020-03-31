@@ -17,7 +17,7 @@ const screens = {
   ReviewDetails: {
     screen: ReviewDetails,
     navigationOptions: {
-      title: 'Omar`s ToDo',
+      title: 'Osos`s ToDo',
       headerStyle: { backgroundColor: 'skyblue' }
     }
   },

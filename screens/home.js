@@ -42,7 +42,7 @@ export default function Home({ navigation }) {
     <View style={globalStyles.container}>
       <Text style={globalStyles.titleText}>Welcome</Text>
       <Button title='Tasks' onPress={press} />
-      <Button title='Important' onPress={pressHand} color='#6E0808' />
+      <Button title='Important' onPress={pressHand} color='orange' />
       {/* <FlatList
         data={reviews}
         renderItem={({ item }) => (

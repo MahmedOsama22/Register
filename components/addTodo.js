@@ -17,7 +17,7 @@ export default function AddTodo({ submit }) {
     <View>
       <TextInput
         style={styles.input}
-        placeholder='Omar`s new todo ~.~.~.~.~'
+        placeholder='osos`s new todo ~.~.~.~.~'
         onChangeText={val => change(val)}
         multiline={true}
       />
