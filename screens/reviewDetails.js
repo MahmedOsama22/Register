@@ -13,7 +13,7 @@ import {
   CheckBox
 } from 'react-native';
 import TodoItem from '../components/todoItem';
-// import AddTodo from '../components/addtodo';
+import AddTodo from '../components/AddTodo';
 
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import TaskDetail from './taskDetail';
@@ -94,7 +94,7 @@ export default function ReviewDetails({ navigation }) {
     >
       <View style={styles.content}>
         <ScrollView>
-          <AddTodo submit={submit} />
+          <AddTodo submit={submit}/>
           <View style={styles.list} /*style={globalStyles.container}*/>
             <FlatList
               data={data}
